@@ -26,3 +26,8 @@ At the end of this module, we should know
 * How to update our fork
 * How to propose changes back to the original project
 * How to receive changes from the original project
+
+## References
+
+[Git - the stupid content tracker](https://speakerdeck.com/mariospr/git-the-stupid-content-tracker)
+[Hello World - GitHub guides](https://guides.github.com/activities/hello-world/)
