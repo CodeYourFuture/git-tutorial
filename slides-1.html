@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Introduction to Git</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <section>
+      <header class="mainHeader">
+        <h1>Introduction to Git</h1>
+      </header>
+      <article>
+        <header>
+          <h2>Using Git</h2>
+        </header>
+        <h3>Contributing to an existing project</h3>
+        <h4>First step: getting a copy of the project</h4>
+        <pre>git clone https://github.com/Code-Your-Future/git-tutorial.git</pre>
+        <p>This will copy all the information about the project to your
+      local hard drive</p>
+        <h4>Second step: creating a development branch</h4>
+        <pre>git checkout -b fixes</pre>
+        <p>Typically you will work in branches. Think of a branch as a
+      "virtual space" where you can group similar changes together.</p>
+        <p>You can have multiple branches, something useful to work on
+      different things simultaneously</p>
+        <h4>Third step: submitting your local changes</h4>
+        <pre>git add new_file.txt changed_file.js</pre>
+        <p>If you modify an existing file or you create a new one,you <em>add</em> it to Git with <em>git add</em></p>
+        <h4>Fourth step: grouping changes</h4>
+        <pre>git commit -m "Fixed some bug"</pre>
+        <p>A <em>commit</em> groups changes together into a single
+      unit. For example:</p>
+        <ul>
+            <li>Fixed typos and spelling errors.</li>
+            <li>Fixed arithmetic errors in animations.js</li>
+            <li>Updated CSS margins for Login Page</li>
+        </ul>
+        <h4>Fifth step: delivering changes</h4>
+        <pre>git push</pre>
+        <p>This will send your changes to the repository you cloned from
+      (if you have permissions).</p>
+        <a href="exercises-1.html">Exercises</a>
+      </article>
+      <footer>
+        <p>Prepared by HYF Team </p>
+      </footer>
+    </section>
+  </body>
+</html>
