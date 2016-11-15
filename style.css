@@ -1,1 +1,31 @@
-p { color: blue; }
+body{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section article{
+	margin-left: 20px;
+	border:1px solid blue;
+	margin-bottom: 10px; 
+}
+
+section a{
+	float:right;
+	margin-bottom: 10px;
+}
+section article header h2{
+	text-align: center;
+}
+
+section article h3{
+	padding-left: 10px;
+}
+section article p{
+	padding-left: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+section article dl{
+	padding-left: 20px;
+}
