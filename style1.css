@@ -12,6 +12,7 @@ section article{
 	background-color:#b6e1fc;
 }
 h1 {
+	text-shadow: 5px 5px 50px red;
 	text-align: center;
 	font-family: serif;
 	font-size: 35px;
