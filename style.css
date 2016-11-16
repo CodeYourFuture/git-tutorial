@@ -1,1 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Scope+One|Cinzel:700,900|Alex+Brush|Qwigley|Heebo:300,500,800,900');
 p { color: blue; }
+body{
+	margin:auto;
+	width: 80%;
+	text-align: left;
+	font-family: "Scope One", "serif";
+	color:black;
+	font-size:90%;
+	line-height: 1.5;
+}
+h1{ 
+	font-family:"serif" ;
+	font-size: 75px;
+	background-color: rgba(180, 196, 107, 0.4);
+	color:#852f0d;
+	border-radius: 5px 5px 0 0;
+	text-align: center; 
+	line-height: 1.1;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+h3{
+	font-family:"serif";
+	font-size:180%;
+	background-color: rgba(174, 196, 207, 0.2);
+	color: gray;
+	border-radius: 0 0 5px 5px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+h2{
+	font-family:"serif";
+	font-size: 190%;
+	font-weight: 300;
+	color: #808000;
+	text-align: left;
+	letter-spacing: 2.5px;
+	line-height: 1;
+	margin-top: 6px;
+	margin-bottom:2px;
+}
+h4{
+	font-family:"serif";
+	font-weight: 300;
+	font-size: 25px;
+	padding:0px;
+	margin-top:0px;
+	text-align: left;
+	color:red;
+}
+a{
+	font-family:"serif";
+	font-weight: 300;
+	color: #032429;
+}
