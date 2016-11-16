@@ -7,9 +7,7 @@ body{
 img{
 	width: 650px;
 	height: 200px;
-
 }
-
 section article{
 	margin-left: 20px;
 	border:1px solid blue;
@@ -26,18 +24,36 @@ section a{
 	float:right;
 	margin-bottom: 10px;
 }
-section article header h2{
+h2, h3{
 	text-align: center;
 }
 
-section article h3{
+section article h4 {
 	padding-left: 10px;
+}
+pre{
+	color: white;
+	padding-left: 20px;
+	border:0;
+	background-color: black;
 }
 section article p{
 	padding-left: 20px;
 	font-style: italic;
 	font-weight: bold;
 }
-section article dl{
-	padding-left: 20px;
+#first{
+	color: blue;
+}
+#word1{
+	color: yellow;
+}
+#link{
+	color: green;
+}
+#fix{
+	color: green;
+}
+#br{
+	color: #8b008b;
 }
