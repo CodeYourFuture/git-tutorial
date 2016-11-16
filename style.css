@@ -1,0 +1,69 @@
+body {
+	background-image: url(imgs/vintage-background.jpg);
+	font-weight: 900;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 40%;
+	font-family: 'Mogra';
+	font-size: 1.3em;
+	color: brown;
+	display: inline-block;
+	background-color: rgba(255, 206, 127, 0.33);
+}
+
+
+
+h2 {
+	color: #ffce7f;
+	background-color: rgba(165, 42, 42, 0.33);
+	font-family: 'Shrikhand', cursive;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 2em;
+	margin-bottom: 0;
+
+}
+
+.clone {
+	font-family:'Bungee Shade';
+}
+
+.fix {
+	font-family:'Finger Paint';
+}
+
+.separate {
+	font-family: 'Julius Sans One';
+}
+
+.updateLook {
+	font-family: 'Petit Formal Script'; 
+}
+
+.content {
+	position: relative;
+}
+
+.column1 {
+	/* position: absolute; */
+	width: 40%;
+	float: left;
+}
+
+.column2 {
+/*	position: absolute;*/
+	/* left: 40%; */
+	width: 40%;
+	float: right;
+}
+
+pre {
+	width: 40%;
+}
