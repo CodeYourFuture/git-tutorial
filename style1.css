@@ -2,17 +2,19 @@ body{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color:  #ceebfd;
+	background-color:  #e6e6e6;
 }
-
+img{
+	width: 650px;
+	height: 200px;
+}
 section article{
 	margin-left: 20px;
 	border:1px solid blue;
 	margin-bottom: 10px; 
-	background-color:#b6e1fc;
+	background-color:#cccccc;
 }
 h1 {
-	text-shadow: 5px 5px 50px red;
 	text-align: center;
 	font-family: serif;
 	font-size: 35px;
@@ -45,4 +47,13 @@ section article p{
 }
 #word1{
 	color: yellow;
+}
+#link{
+	color: green;
+}
+#fix{
+	color: green;
+}
+#br{
+	color: #8b008b;
 }
