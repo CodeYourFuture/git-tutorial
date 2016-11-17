@@ -84,6 +84,7 @@ header{
 header label :hover{
 	background-color: yellow;
 }
+
 .slide{
 	height: 100%;
 	width:100%;
@@ -99,7 +100,7 @@ header label :hover{
 
 .slide-one, .slide-two, .slide-three, .slide-four, .slide-five,
 .slide-six, .slide-seven, .slide-eight, .slide-nine, .slide-ten,
-.slide-twelve, .slide-thirteen, .slide-fourteen, .slide-fifteen {
+.slide-eleven,.slide-twelve, .slide-thirteen, .slide-fourteen {
 	background-image: url("http://theetommyt.com/images/para2.svg");
 	background-size:800px auto;
 	background-repeat: no-repeat;
@@ -111,4 +112,3 @@ header label :hover{
 	z-index:100;
 	transition: left 0.65s ease-out;
 }
-
