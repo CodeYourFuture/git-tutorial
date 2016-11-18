@@ -3,69 +3,128 @@
     <title>Introduction to Git</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <h1>Introcution to Git</h1>
-    <h2>The problem of changes</h2>
-    <h3>Option 0: do nothing</h3>
-    <p>You have a document or project, you modify it, and you save the
-      latest version.</p>
-    <h3>Option 1: keep copies</h3>
-    <ul>
-      <li>Document.doc</li>
-      <li>Document_20161111.doc</li>
-      <li>Document_May2013.doc</li>
-    </ul>
-    <h3>Option 2: use a version control system</h3>
-    <p>Use a tool that keeps track of all the changes in the document
-      or project</p>
-    <h2>What is Git?</h2>
-    <h3>A distributed version control system</h3>
-    <p>A version control system is a tool that allows to track changes
-      performed to the contents of a project</p>
-    <h3>"Distributed" vs. "Centralized"</h3>
-    <dl>
-      <dt>Distributed</dt>
-      <dd>There is no need for a central copy. Each developer has a
-	full clone of the repository with all the project
-	history.</dd>
-      <dt>Centralized</dt>
-      <dd>There is a single central copy of the project. Changes are
-	submitted to the central copy.</dd>
-    </dl>
-    <h3>What is GitHub?</h3>
-    <p>GitHub is a web service that specialises in providing hosting
-      for Git projects.</p>
-    <p>Although Git is distributed, developers can agree on a central
-      server.</p>
-    <h2>Using Git</h2>
-    <h3>Contributing to an existing project</h3>
-    <h4>First step: getting a copy of the project</h4>
-    <pre>git clone https://github.com/Code-Your-Future/git-tutorial.git</pre>
-    <p>This will copy all the information about the project to your
-      local hard drive</p>
-    <h4>Second step: creating a development branch</h4>
-    <pre>git checkout -b fixes</pre>
-    <p>Typically you will work in branches. Think of a branch as a
-      "virtual space" where you can group similar changes together.</p>
-    <p>You can have multiple branches, something useful to work on
-      different things simultaneously</p>
-    <h4>Third step: submitting your local changes</h4>
-    <pre>git add new_file.txt changed_file.js</pre>
-    <p>If you modify an existing file or you create a new one,
-      you <em>add</em> it to Git with <em>git add</em></p>
-    <h4>Fourth step: grouping changes</h4>
-    <pre>git commit -m "Fixed some bug"</pre>
-    <p>A <em>commit</em> groups changes together into a single
-      unit. For example:</p>
-    <ul>
-      <li>Fixed typos and spelling errors.</li>
-      <li>Fixed arithmetic errors in animations.js</li>
-      <li>Updated CSS margins for LoginPage</li>
-    </ul>
-    <h4>Fifth step: delivering changes</h4>
-    <pre>git push</pre>
-    <p>This will send your changes to the repository you cloned from
-      (if you have permissions).</p>
-    <a href="exercises-1.html">Exercises</a>
+  <body class="container">
+
+    <header>
+      <label for = "slide-1-trigger">Intro Slide</label>
+      <label for = "slide-2-trigger">Problem of changes Slide</label>
+      <label for = "slide-3-trigger">Git Slide</label>
+      <label for = "slide-4-trigger">GitHub Slide</label>
+      <label for = "slide-5-trigger">Using Git Slide 1</label>
+      <label for = "slide-6-trigger">Using Git Slide 2</label>
+      <label for = "slide-7-trigger">Using Git Slide 3</label>
+      <label for = "slide-8-trigger">Using Git Slide 4</label>
+      <label for = "slide-9-trigger">Using Git Slide 5</label>
+    </header>
+
+    <input id ="slide-1-trigger" type="radio" name="slides" checked> 
+    <section class="slide slide-one">
+      <h1>Introdution to Git</h1>  
+    </section>
+    
+    <input id ="slide-2-trigger" type="radio" name="slides"> 
+    <section class="slide slide-two">
+      <h2>The problem of changes</h2>
+        <h3>Option 0: do nothing</h3>
+          <p>You have a document or project, you modify it, and you save the
+          latest version.</p>
+        <h3>Option 1: keep copies</h3>
+          <ul>
+            <li>Document.doc</li>
+            <li>Document_20161111.doc</li>
+            <li>Document_May2013.doc</li>
+          </ul>
+        <h3>Option 2: use a version control system</h3>
+          <p>Use a tool that keeps track of all the changes in the document
+          or project</p>
+    </section>
+
+    <input id ="slide-3-trigger" type="radio" name="slides"> 
+    <section class="slide slide-three">
+      <h2>What is Git?</h2>
+        <h3>A distributed version control system</h3>
+          <p>A version control system is a tool that allows to track changes
+          performed to the contents of a project</p>
+        <h3>"Distributed" vs. "Centralized"</h3>
+          <dl>
+            <dt>Distributed</dt>
+            <dd>There is no need for a central copy. Each developer has a
+            full clone of the repository with all the project
+            history.</dd>
+            <dt>Centralized</dt>
+            <dd>There is a single central copy of the project. Changes are
+            submitted to the central copy.</dd>
+          </dl>
+    </section>
+
+    <input id ="slide-4-trigger" type="radio" name="slides"> 
+    <section class="slide slide-four">
+      <h3>What is GitHub?</h3>
+        <p>GitHub is a web service that specialises in providing hosting
+        for Git projects.</p>
+        <p>Although Git is distributed, developers can agree on a central
+        server.</p>
+    </section>
+
+    <input id ="slide-5-trigger" type="radio" name="slides"> 
+    <section class="slide slide-five">
+      <h2>Using Git</h2>
+        <h3>Contributing to an existing project</h3>
+          <h4>First step: getting a copy of the project</h4>
+            <pre>git clone https://github.com/Code-Your-Future/git-tutorial.git
+            </pre>
+              <p>This will copy all the information about the project to your
+              local hard drive</p>
+    </section>
+
+    <input id ="slide-6-trigger" type="radio" name="slides"> 
+    <section class="slide slide-six">
+      <h2>Using Git</h2>
+        <h3>Contributing to an existing project</h3>
+          <h4>Second step: creating a development branch</h4>
+            <pre>git checkout -b fixes</pre>
+              <p>Typically you will work in branches. Think of a branch as a
+              "virtual space" where you can group similar changes together.</p>
+              <p>You can have multiple branches, something useful to work on
+              different things simultaneously</p>
+    </section>
+
+    <input id ="slide-7-trigger" type="radio" name="slides"> 
+    <section class="slide slide-seven">
+      <h2>Using Git</h2>
+        <h3>Contributing to an existing project</h3>
+          <h4>Third step: submitting your local changes</h4>
+            <pre>git add new_file.txt changed_file.js</pre>
+              <p>If you modify an existing file or you create a new one,
+              you <em>add</em> it to Git with <em>git add</em></p>
+    </section>
+
+    <input id ="slide-8-trigger" type="radio" name="slides"> 
+    <section class="slide slide-eight">
+      <h2>Using Git</h2>
+        <h3>Contributing to an existing project</h3>
+          <h4>Fourth step: grouping changes</h4>
+            <pre>git commit -m "Fixed some bug"</pre>
+              <p>A <em>commit</em> groups changes together into a single
+              unit. For example:</p>
+                <ul>
+                  <li>Fixed typos and spelling errors.</li>
+                  <li>Fixed arithmetic errors in animations.js</li>
+                  <li>Updated CSS margins for LoginPage</li>
+                </ul>
+    </section>
+
+    <input id ="slide-9-trigger" type="radio" name="slides"> 
+    <section class="slide slide-nine">
+      <h2>Using Git</h2>
+        <h3>Contributing to an existing project</h3>
+          <h4>Fifth step: delivering changes</h4>
+            <pre>git push</pre>
+              <p>This will send your changes to the repository you cloned from
+              (if you have permissions).</p>
+      <a href="exercises-1.html">Exercises</a> <br />
+      <a href="slides-2.html">more slides</a>       
+    </section>
+
   </body>
 </html>
