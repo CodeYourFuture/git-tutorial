@@ -2,9 +2,11 @@
   <head>
     <title>Introduction to Git</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/exerciserStyle-1.css">
+
   </head>
   <body>
-    <h1>Introdcution to Git</h1>
+    <h1>Introduction to Git</h1>
     <h2>The problem of changes</h2>
     <h3>Option 0: do nothing</h3>
     <p>You have a document or project, you modify it, and you save the
@@ -40,21 +42,21 @@
     <h2>Using Git</h2>
     <h3>Contributing to an existing project</h3>
     <h4>First step: getting a copy of the project</h4>
-    <pre>git clone https://github.com/Code-Your-Future/git-tutorial.git</pre>
+    <pre><span id='dollar'>$</span><span>git clone</span> https://github.com/Code-Your-Future/git-tutorial.git</pre>
     <p>This will copy all the information about the project to your
       local hard drive</p>
     <h4>Second step: creating a development branch</h4>
-    <pre>git checkout -b fixes</pre>
+    <pre><span id='dollar'>$</span><span>git checkout</span> -b fixes</pre>
     <p>Typically you will work in branches. Think of a branch as a
       "virtual space" where you can group similar changes together.</p>
     <p>You can have multiple branches, something useful to work on
       different things simultaneously</p>
     <h4>Third step: submitting your local changes</h4>
-    <pre>git add new_file.txt changed_file.js</pre>
+    <pre><span id='dollar'>$</span><span>git add </span>new_file.txt changed_file.js</pre>
     <p>If you modify an existing file or you create a new one,
       you <em>add</em> it to Git with <em>git add</em></p>
     <h4>Fourth step: grouping changes</h4>
-    <pre>git commit -m "Fixed some bug"</pre>
+    <pre><span id='dollar'>$</span><span>git commit</span> -m "Fixed some bug"</pre>
     <p>A <em>commit</em> groups changes together into a single
       unit. For example:</p>
     <ul>
@@ -63,7 +65,7 @@
       <li>Updated CSS margins for LoginPage</li>
     </ul>
     <h4>Fifth step: delivering changes</h4>
-    <pre>git push</pre>
+    <pre><span id='dollar'>$</span><span>git push</span></pre>
     <p>This will send your changes to the repository you cloned from
       (if you have permissions).</p>
     <a href="exercises-1.html">Exercises</a>
