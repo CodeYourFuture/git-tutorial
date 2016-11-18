@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  background-color: #0009;
+  padding: 80px;
+  font-family: "Raleway";
+  color:white;
+}
+ pre {
+     font-family: 'cutive mono';
+     background-color: #292c29;
+     color:white;
+     font-size: 20px;
+ }
+ h2 {
+   display: inline-block;
+   background-color: #00000080;
+   text-align: center;
+   font-size: 60px;
+ }
+ h3 {
+  color: #4b4b4b;
+ }
+ #dollar {
+  color :#ff005a;
+  font-size: 17px;
+ }
+ span {
+   color: #a5f806;
+ }
+ p {
+   color: :black;
+ }
