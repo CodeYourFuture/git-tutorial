@@ -3,32 +3,62 @@
     <title>Introduction to Git</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <h2>Using GitHub</h2>
-    <h3>"Forking" a project</h3>
-    <p>Forking a project copies it to your GitHub account. In a way,
-      it is equivalent to cloning it.</p>
-    <h3>Why "forking"?</h3>
-    <p>Forking gives you the ability to work on the project and modify
-      it according to your needs without interfering with the original
-      project.</p>
-    <p>This is useful if you want to adapt it for something specific,
-      if the original project is no longer active, or... if you want to
-      contribute back to them</p>
-    <h3>Contributing!</h3>
-    <p>The ability to contribute is the most important feature of
-      GitHub. Different people can work on different aspects of a same
-      project, working at their own speed, and then they can deliver
-      their changes or improvements</p>
-    <p>This is done using Pull Requests</p>
-    <h3>Pull Requests</h3>
-    <p>Allows the receiving project to review the changes before incorporating them</p>
-    <p>Allows automatically integrating these changes</p>
-    <h3>Good practices</h3>
-    <p>Keep your master branch pointing to the original project's master branch</p>
-    <p>Work on feature branches</p>
-    <p>Submit Pull Requests from feature branches</p>
-    <p>Keep feature branches up to date</p>
-    <h3>Exercises!!</h3>
+  <body class="container">
+
+    <header>
+      <label for = "slide-1-trigger">Intro Slide</label>
+      <label for = "slide-2-trigger">Forking Slide</label>
+      <label for = "slide-3-trigger">Contributing Slide </label>
+      <label for = "slide-4-trigger">Pull requests Slide</label>
+      <label for = "slide-5-trigger">Good Practices Slide</label>
+    </header>
+
+    <input id ="slide-1-trigger" type="radio" name="slides" checked> 
+    <section class="slide slide-one">
+      <h2>Using GitHub</h2>
+    </section>
+
+    <input id ="slide-2-trigger" type="radio" name="slides"> 
+    <section class="slide slide-two">
+      <h3>"Forking" a project</h3>
+        <p>Forking a project copies it to your GitHub account. In a way,
+        it is equivalent to cloning it.</p>
+      <h3>Why "forking"?</h3>
+        <p>Forking gives you the ability to work on the project and modify
+        it according to your needs without interfering with the original
+        project.</p>
+        <p>This is useful if you want to adapt it for something specific,
+        if the original project is no longer active, or... if you want to
+        contribute back to them</p>
+    </section>
+    
+    <input id ="slide-3-trigger" type="radio" name="slides"> 
+    <section class="slide slide-three">    
+      <h3>Contributing!</h3>
+        <p>The ability to contribute is the most important feature of
+        GitHub.</p>
+        <p>Different people can work on different aspects of a same
+        project, working at their own speed, and then they can deliver
+        their changes or improvements</p>
+        <p>This is done using Pull Requests</p>
+    </section>
+    
+    <input id ="slide-4-trigger" type="radio" name="slides"> 
+    <section class="slide slide-four">    
+      <h3>Pull Requests</h3>
+        <p>Allows the receiving project to review the changes before incorporating them</p>
+        <p>Allows automatically integrating these changes</p>
+    </section>
+    
+    <input id ="slide-5-trigger" type="radio" name="slides"> 
+    <section class="slide slide-five">    
+      <h3>Good practices</h3>
+        <p>Keep your master branch pointing to the original project's master branch</p>
+        <p>Work on feature branches</p>
+        <p>Submit Pull Requests from feature branches</p>
+        <p>Keep feature branches up to date</p>
+      <h3>Exercises!!</h3>
+    </section> 
+
   </body>
 </html>
