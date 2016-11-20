@@ -1,5 +1,80 @@
-p { color: blue; }
 body{
+	background-color: lightgrey;
+	max-width: 800px;
+	margin: 0px auto;
+}
+.section-class{
+	box-sizing: border-box;
+	background-color:white;
+	width: 100%;
+	float:left;
+	text-align: justify;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.section2-class{
+	box-sizing: border-box;
+	background-color:white;
+	width: 100%;
+	float:left;
+	text-align: justify;
+	height: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+.divheader{
+	background-image: url("https://hibara.org/software/img/github-octcat.png");
+	background-size: 40% 70%;
+	background-repeat: no-repeat;
+	padding: 60px;
+	margin-top: 10px;
+	overflow: auto;
+}
+h1:hover{
+	font-size: 220%;
+	color: red;
+}
+#heading:hover{
+	color: red;
+	text-transform: uppercase;
+}
+p{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 18px;
+}
+h2{
+	font-size: 24px;
+	font-family: 'Lilita One', cursive;
+}
+li{
+	font-size: 18px;
+}
+dt{
+	font-weight: bold;
+	font-size: 18px;
+}
+dd{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: unset; 
+}
+pre{
+	color:blue;
+	font-size: 14px;
+	font-weight: bold;
+}
+footer{
 	text-align: center;
-	background-color: lightgrey; 
 }
